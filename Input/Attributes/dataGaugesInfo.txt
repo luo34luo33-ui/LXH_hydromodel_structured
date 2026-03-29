@@ -1,0 +1,5 @@
+3
+ID	NAME	SID	X	Y	EnName	
+1	»ÆÁú´ø	C1	473425.1	2629413.9	huanglongdai
+2	ÁªÐÇ	C2	472500.8	2636533.9	lianxing
+3	·ãÄ¾‰i	C3	477033.9	2636002.1	fengmulang

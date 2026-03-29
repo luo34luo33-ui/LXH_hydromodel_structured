@@ -1,0 +1,28 @@
+model:
+  name: "Liuxihe Model"
+  version: "1.0.0"
+
+spatial:
+  resolution: 100  # meters
+  crs: "EPSG:4326"
+
+temporal:
+  dt: 3600  # seconds (1 hour)
+  start_date: "2020-01-01"
+  end_date: "2020-12-31"
+
+paths:
+  dem: "data/dem.tif"
+  landuse: "data/lulc.tif"
+  soil: "data/soil.tif"
+  rainfall: "data/rainfall/"
+  output: "output/"
+
+calibration:
+  algorithm: "shuffled_complex_evolution"
+  max_iterations: 1000
+  tolerance: 1e-5
+
+logging:
+  level: "INFO"
+  file: "logs/model.log"
